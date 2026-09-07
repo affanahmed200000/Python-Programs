@@ -1,0 +1,4 @@
+ctryN=["pakistan","india","bangladesh","china","nepal"]
+cptlN=["islamabad","delhi","dhaka","beijing","kathmandu"]
+for i in range(5):
+    print("The capital of" ,ctryN[i],"is",cptlN[i])

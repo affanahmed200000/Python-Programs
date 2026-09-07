@@ -1,0 +1,11 @@
+ctryN=["pakistan","india","bangladesh","china","nepal"]
+cptlN=["islamabad","delhi","dhaka","beijing","kathmandu"]
+
+item=input("enter country name to find :")
+for i in range(5):
+    if item == ctryN[i]:
+        print("The capital of", item ,"is", cptlN[i])
+        break
+else:
+    print("country not found in this list")
+        
